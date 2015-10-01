@@ -1,0 +1,22 @@
+{
+  "name": "promethean.api.models",
+  "version": "1.0.0",
+  "description": "Data models for promethean project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsargeant/promethean.api.models.git"
+  },
+  "keywords": [
+    "promethean",
+    "open",
+    "badges"
+  ],
+  "author": "Nathan Sargeant <nathan.s.sargeant@gmail.com>",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
