@@ -4,7 +4,7 @@
   "description": "Data models for promethean project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   ],
   "author": "Nathan Sargeant <nathan.s.sargeant@gmail.com>",
   "dependencies": {
-    "lodash": "^3.10.1"
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
